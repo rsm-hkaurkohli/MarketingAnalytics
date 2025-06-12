@@ -13,11 +13,11 @@ website:
       - text: Projects
         menu:
           - text: Project 1
-            href: projects/ Project 1/marketing analytics.pdf
+            href: projects/Project 1/marketing analytics.pdf
           - text: Project 2 Airbnb Analysis
             href: projects/Project 2/MAA2.html
           - text: Project 3 Conjoint Analysis
-            href: projects/Project 3/MAA3.html
+            href: projects/Project 3/MAA 3.html
           - text: Project 4 Drivers Analysis
             href: projects/Project 4/MAA4.html
 
