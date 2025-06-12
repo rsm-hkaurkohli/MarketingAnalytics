@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Hargun Kaur Kohli-Portfolio"
+  navbar:
+    left:
+      - href: index.qmd
+        text: About
+      - href: "resume/Resume.pdf"
+        text: Resume
+      - text: Projects
+        menu:
+          - text: Project 1
+            href: projects/ Project 1/marketing analytics.pdf
+          - text: Project 2 Airbnb Analysis
+            href: projects/Project 2/MAA2.html
+          - text: Project 3 Conjoint Analysis
+            href: projects/Project 3/MAA3.html
+          - text: Project 4 Drivers Analysis
+            href: projects/Project 4/MAA4.html
+
+
+format:
+  html:
+    theme: 
+      - cosmo
+      - brands
+    css: styles.css
+    toc: true
